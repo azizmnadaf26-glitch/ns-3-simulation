@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local validation and fresh reproduction outputs
+validation/
+logs/reproduction/
+results/reproduction/
+plots/reproduction/
+
+# Editor and operating system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

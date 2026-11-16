@@ -1,0 +1,229 @@
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+ENFS Explicit Feedback Prototype v3 - Sequenced Feedback
+Senders: 5
+Startup offset: 50 ms per sender index
+TCP: NewReno; data port: 5000
+ENFS feedback: UDP port 9000
+Bottleneck: 8 Mbps; queue limit: 20 packets
+Congestion threshold: 15 packets; clear threshold: 10 packets
+Persistence interval: 50 ms
+Simulation duration: 12 seconds
+
+[Sender 1] TCP connected at 1.02213 s
+[Sender 2] TCP connected at 1.07388 s
+[Sender 3] TCP connected at 1.12293 s
+[ENFS v2] Congestion candidate started at 1.13599 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.13771 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.1387 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.15012 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.151 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.15393 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.15464 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.15566 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.15703 s; queue = 15 packets
+[Sender 4] TCP connected at 1.17959 s
+
+[ENFS v2] Congestion confirmed at 1.20703 s; persistence = 50 ms; queue = 20 packets; event #1
+[ENFS] Sent CONGESTION feedback to 10.1.1.1 at 1.20703 s
+[ENFS] Sent CONGESTION feedback to 10.1.2.1 at 1.20703 s
+[ENFS] Sent CONGESTION feedback to 10.1.3.1 at 1.20703 s
+[ENFS] Sent CONGESTION feedback to 10.1.4.1 at 1.20703 s
+[ENFS] Sent CONGESTION feedback to 10.1.5.1 at 1.20703 s
+[ENFS] Sender 1 accepted CONGESTION sequence 1 at 1.20803 s; offered rate now 2.25 Mbps
+[ENFS] Sender 2 accepted CONGESTION sequence 1 at 1.20803 s; offered rate now 2.25 Mbps
+[ENFS] Sender 3 accepted CONGESTION sequence 1 at 1.20803 s; offered rate now 2.25 Mbps
+[ENFS] Sender 4 accepted CONGESTION sequence 1 at 1.20803 s; offered rate now 2.25 Mbps
+[ENFS] Sender 5 accepted CONGESTION sequence 1 at 1.20803 s; offered rate now 2.25 Mbps
+[Sender 5] TCP connected at 1.23368 s
+[ENFS v2] Clear candidate started at 1.69138 s; queue = 10 packets
+
+[ENFS v2] Congestion clear confirmed at 1.74138 s; persistence = 50 ms; queue = 7 packets
+[ENFS] Sent CLEAR feedback to 10.1.1.1 at 1.74138 s
+[ENFS] Sent CLEAR feedback to 10.1.2.1 at 1.74138 s
+[ENFS] Sent CLEAR feedback to 10.1.3.1 at 1.74138 s
+[ENFS] Sent CLEAR feedback to 10.1.4.1 at 1.74138 s
+[ENFS] Sent CLEAR feedback to 10.1.5.1 at 1.74138 s
+[ENFS] Sender 1 accepted CLEAR sequence 2 at 1.74238 s; offered rate now 2.5 Mbps
+[ENFS] Sender 2 accepted CLEAR sequence 2 at 1.74238 s; offered rate now 2.5 Mbps
+[ENFS] Sender 3 accepted CLEAR sequence 2 at 1.74238 s; offered rate now 2.5 Mbps
+[ENFS] Sender 4 accepted CLEAR sequence 2 at 1.74238 s; offered rate now 2.5 Mbps
+[ENFS] Sender 5 accepted CLEAR sequence 2 at 1.74238 s; offered rate now 2.5 Mbps
+[ENFS v2] Congestion candidate started at 1.86221 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.86339 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.87047 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.87283 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.87401 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.87932 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.88286 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.88404 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.88522 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.88577 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.88636 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.88758 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.88876 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.88931 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.8899 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.89112 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.8923 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.89343 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.89461 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.89874 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.89993 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.90052 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.90174 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.90229 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.90288 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.90346 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.90641 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.90759 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.90877 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.91054 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.91408 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.91526 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.92529 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 1.92647 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.11422 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.1154 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.11658 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.12248 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.13963 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.14077 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.14195 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.14313 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.14426 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.14544 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.14662 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.1478 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.15134 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.15252 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.1537 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.1773 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.17848 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.17966 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.18556 s; queue = 15 packets
+
+[ENFS v2] Congestion confirmed at 2.23556 s; persistence = 50 ms; queue = 18 packets; event #2
+[ENFS] Sent CONGESTION feedback to 10.1.1.1 at 2.23556 s
+[ENFS] Sent CONGESTION feedback to 10.1.2.1 at 2.23556 s
+[ENFS] Sent CONGESTION feedback to 10.1.3.1 at 2.23556 s
+[ENFS] Sent CONGESTION feedback to 10.1.4.1 at 2.23556 s
+[ENFS] Sent CONGESTION feedback to 10.1.5.1 at 2.23556 s
+[ENFS] Sender 1 accepted CONGESTION sequence 3 at 2.23656 s; offered rate now 1.875 Mbps
+[ENFS] Sender 2 accepted CONGESTION sequence 3 at 2.23656 s; offered rate now 1.875 Mbps
+[ENFS] Sender 3 accepted CONGESTION sequence 3 at 2.23656 s; offered rate now 1.875 Mbps
+[ENFS] Sender 4 accepted CONGESTION sequence 3 at 2.23656 s; offered rate now 1.875 Mbps
+[ENFS] Sender 5 accepted CONGESTION sequence 3 at 2.23656 s; offered rate now 1.875 Mbps
+[ENFS v2] Clear candidate started at 2.67321 s; queue = 10 packets
+[ENFS v2] Clear candidate started at 2.67439 s; queue = 10 packets
+[ENFS v2] Clear candidate started at 2.67557 s; queue = 10 packets
+[ENFS v2] Clear candidate started at 2.67793 s; queue = 10 packets
+[ENFS v2] Clear candidate started at 2.67911 s; queue = 10 packets
+[ENFS v2] Clear candidate started at 2.68029 s; queue = 10 packets
+[ENFS v2] Clear candidate started at 2.68147 s; queue = 10 packets
+
+[ENFS v2] Congestion clear confirmed at 2.73147 s; persistence = 50 ms; queue = 8 packets
+[ENFS] Sent CLEAR feedback to 10.1.1.1 at 2.73147 s
+[ENFS] Sent CLEAR feedback to 10.1.2.1 at 2.73147 s
+[ENFS] Sent CLEAR feedback to 10.1.3.1 at 2.73147 s
+[ENFS] Sent CLEAR feedback to 10.1.4.1 at 2.73147 s
+[ENFS] Sent CLEAR feedback to 10.1.5.1 at 2.73147 s
+[ENFS] Sender 1 accepted CLEAR sequence 4 at 2.73248 s; offered rate now 2.125 Mbps
+[ENFS] Sender 2 accepted CLEAR sequence 4 at 2.73248 s; offered rate now 2.125 Mbps
+[ENFS] Sender 3 accepted CLEAR sequence 4 at 2.73248 s; offered rate now 2.125 Mbps
+[ENFS] Sender 4 accepted CLEAR sequence 4 at 2.73248 s; offered rate now 2.125 Mbps
+[ENFS] Sender 5 accepted CLEAR sequence 4 at 2.73248 s; offered rate now 2.125 Mbps
+[ENFS v2] Congestion candidate started at 2.76385 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.78273 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.78323 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.78441 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.78559 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.78677 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.78795 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.78913 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.79031 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.79149 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.79267 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.79385 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.79503 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.79621 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.79975 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.80093 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.81214 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.81332 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.81514 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.81568 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.8175 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.81804 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.81986 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.8204 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.82222 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.8234 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.82394 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.82576 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.82694 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.82812 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.83279 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.86642 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.8676 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.86878 s; queue = 15 packets
+[ENFS v2] Congestion candidate started at 2.8735 s; queue = 15 packets
+
+[ENFS v2] Congestion confirmed at 2.9235 s; persistence = 50 ms; queue = 20 packets; event #3
+[ENFS] Sent CONGESTION feedback to 10.1.1.1 at 2.9235 s
+[ENFS] Sent CONGESTION feedback to 10.1.2.1 at 2.9235 s
+[ENFS] Sent CONGESTION feedback to 10.1.3.1 at 2.9235 s
+[ENFS] Sent CONGESTION feedback to 10.1.4.1 at 2.9235 s
+[ENFS] Sent CONGESTION feedback to 10.1.5.1 at 2.9235 s
+[ENFS] Sender 1 accepted CONGESTION sequence 5 at 2.9245 s; offered rate now 1.59375 Mbps
+[ENFS] Sender 2 accepted CONGESTION sequence 5 at 2.9245 s; offered rate now 1.59375 Mbps
+[ENFS] Sender 3 accepted CONGESTION sequence 5 at 2.9245 s; offered rate now 1.59375 Mbps
+[ENFS] Sender 4 accepted CONGESTION sequence 5 at 2.9245 s; offered rate now 1.59375 Mbps
+[ENFS] Sender 5 accepted CONGESTION sequence 5 at 2.9245 s; offered rate now 1.59375 Mbps
+Flow 1: 10.1.1.1 -> 10.2.0.2
+  TX packets: 3873, RX packets: 3849, lost: 15
+  Throughput: 1.611 Mbps
+  Mean packet delay: 29.140 ms
+
+Flow 3: 10.1.2.1 -> 10.2.0.2
+  TX packets: 3567, RX packets: 3541, lost: 14
+  Throughput: 1.489 Mbps
+  Mean packet delay: 30.530 ms
+
+Flow 5: 10.1.3.1 -> 10.2.0.2
+  TX packets: 3975, RX packets: 3946, lost: 17
+  Throughput: 1.674 Mbps
+  Mean packet delay: 30.546 ms
+
+Flow 7: 10.1.4.1 -> 10.2.0.2
+  TX packets: 3885, RX packets: 3863, lost: 16
+  Throughput: 1.646 Mbps
+  Mean packet delay: 30.096 ms
+
+Flow 9: 10.1.5.1 -> 10.2.0.2
+  TX packets: 3716, RX packets: 3692, lost: 15
+  Throughput: 1.581 Mbps
+  Mean packet delay: 29.592 ms
+
+\n===== PER-SENDER FEEDBACK DIAGNOSTICS =====\nSender 1: received=5, fresh=5, stale=0, state_changes=5\nSender 2: received=5, fresh=5, stale=0, state_changes=5\nSender 3: received=5, fresh=5, stale=0, state_changes=5\nSender 4: received=5, fresh=5, stale=0, state_changes=5\nSender 5: received=5, fresh=5, stale=0, state_changes=5\n===== ENFS AGGREGATE RESULTS =====\nTransmitted packets: 19016
+Received packets: 18891
+Lost packets (FlowMonitor): 77
+Loss ratio: 0.004
+Aggregate throughput estimate: 7.924 Mbps
+Mean packet delay: 29.978 ms
+Maximum queue occupancy: 20 packets
+Queue occupancy change events: 37838
+Congestion episodes: 3
+Feedback messages sent: 25
+Feedback messages received: 25
+
+===== ENFS V2 TEMPORAL HYSTERESIS DIAGNOSTICS =====
+Congestion candidates started: 97
+Congestion candidates cancelled: 94
+Congestion transitions confirmed: 3
+Clear candidates started: 8
+Clear candidates cancelled: 6
+Clear transitions confirmed: 2

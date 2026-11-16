@@ -1,0 +1,86 @@
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+Matched Control - Paced TCP Without ENFS Feedback
+Senders: 5
+Startup offset: 50 ms per sender index
+TCP: NewReno; data port: 5000
+ENFS feedback: UDP port 9000
+Bottleneck: 8 Mbps; queue limit: 20 packets
+Congestion threshold: 15 packets; clear threshold: 10 packets
+Simulation duration: 12 seconds
+
+[Sender 1] TCP connected at 1.02213 s
+[Sender 2] TCP connected at 1.07381 s
+[Sender 3] TCP connected at 1.12213 s
+
+[ENFS] Congestion detected at 1.13516 s; queue = 15 packets; event #1
+
+[ENFS] Congestion cleared at 1.14558 s; queue = 10 packets
+
+[ENFS] Congestion detected at 1.1509 s; queue = 15 packets; event #2
+[Sender 4] TCP connected at 1.18076 s
+[Sender 5] TCP connected at 1.23368 s
+
+[ENFS] Congestion cleared at 1.70512 s; queue = 10 packets
+
+[ENFS] Congestion detected at 2.01716 s; queue = 15 packets; event #3
+
+[ENFS] Congestion cleared at 3.00862 s; queue = 10 packets
+
+[ENFS] Congestion detected at 3.19625 s; queue = 15 packets; event #4
+
+[ENFS] Congestion cleared at 3.77826 s; queue = 10 packets
+
+[ENFS] Congestion detected at 3.89422 s; queue = 15 packets; event #5
+
+[ENFS] Congestion cleared at 6.61911 s; queue = 10 packets
+
+[ENFS] Congestion detected at 6.63064 s; queue = 15 packets; event #6
+
+[ENFS] Congestion cleared at 8.59384 s; queue = 10 packets
+
+[ENFS] Congestion detected at 8.6036 s; queue = 15 packets; event #7
+
+[ENFS] Congestion cleared at 11.5061 s; queue = 10 packets
+
+[ENFS] Congestion detected at 11.5118 s; queue = 15 packets; event #8
+Flow 1: 10.1.1.1 -> 10.2.0.2
+  TX packets: 3870, RX packets: 3842, lost: 21
+  Throughput: 1.607 Mbps
+  Mean packet delay: 30.629 ms
+
+Flow 3: 10.1.2.1 -> 10.2.0.2
+  TX packets: 3844, RX packets: 3812, lost: 19
+  Throughput: 1.603 Mbps
+  Mean packet delay: 31.752 ms
+
+Flow 5: 10.1.3.1 -> 10.2.0.2
+  TX packets: 3708, RX packets: 3677, lost: 17
+  Throughput: 1.559 Mbps
+  Mean packet delay: 29.938 ms
+
+Flow 7: 10.1.4.1 -> 10.2.0.2
+  TX packets: 3904, RX packets: 3881, lost: 15
+  Throughput: 1.655 Mbps
+  Mean packet delay: 30.032 ms
+
+Flow 9: 10.1.5.1 -> 10.2.0.2
+  TX packets: 3672, RX packets: 3646, lost: 15
+  Throughput: 1.561 Mbps
+  Mean packet delay: 29.655 ms
+
+===== ENFS AGGREGATE RESULTS =====
+Transmitted packets: 18998
+Received packets: 18858
+Lost packets (FlowMonitor): 87
+Loss ratio: 0.005
+Aggregate throughput estimate: 7.909 Mbps
+Mean packet delay: 30.410 ms
+Maximum queue occupancy: 20 packets
+Queue occupancy change events: 37772
+Congestion episodes: 8
+Feedback messages sent: 0
+Feedback messages received: 0

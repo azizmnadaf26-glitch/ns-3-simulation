@@ -1,0 +1,31 @@
+metric,comparison,mode,mean,sample_sd,mean_paired_delta,paired_delta_sd,ci95_lower,ci95_upper,mean_paired_percent_change
+throughput_mbps,descriptive,Control,7.918,0.005916079783099677,,,,,
+throughput_mbps,descriptive,ENFS_v1,7.5878000000000005,0.26239416914253266,,,,,
+throughput_mbps,descriptive,ENFS_v2,7.922,0.002000000000000224,,,,,
+throughput_mbps,ENFS_v1 minus Control,,,,-0.33019999999999977,0.2636497676843278,-0.6575644122647795,-0.0028355877352200243,-4.169802443575732
+throughput_mbps,ENFS_v2 minus Control,,,,0.004000000000000092,0.005787918451395127,-0.003186649693338783,0.011186649693338966,0.05055900815652381
+throughput_mbps,ENFS_v2 minus ENFS_v1,,,,0.3341999999999999,0.26153240716974246,0.009464637957785849,0.6589353620422139,4.504438297751112
+mean_delay_ms,descriptive,Control,30.4774,0.17338627396654002,,,,,
+mean_delay_ms,descriptive,ENFS_v1,25.3518,2.690852597226389,,,,,
+mean_delay_ms,descriptive,ENFS_v2,29.813000000000002,0.47884757491293506,,,,,
+mean_delay_ms,ENFS_v1 minus Control,,,,-5.1255999999999995,2.5753618774844056,-8.323334004458664,-1.9278659955413349,-16.843053199306073
+mean_delay_ms,ENFS_v2 minus Control,,,,-0.6643999999999984,0.40063861521326094,-1.161858525952118,-0.16694147404787907,-2.1817128446413485
+mean_delay_ms,ENFS_v2 minus ENFS_v1,,,,4.461200000000001,2.611244664905991,1.2189116319328925,7.703488368067109,18.5376476145005
+lost_packets,descriptive,Control,83,3.082207001484488,,,,,
+lost_packets,descriptive,ENFS_v1,61.4,9.528903399657276,,,,,
+lost_packets,descriptive,ENFS_v2,76.2,0.8366600265340756,,,,,
+lost_packets,ENFS_v1 minus Control,,,,-21.6,11.326958991715296,-35.6642766562565,-7.535723343743504,-25.770729912090246
+lost_packets,ENFS_v2 minus Control,,,,-6.8,3.2710854467592254,-10.8615888803981,-2.738411119601899,-8.088149394601503
+lost_packets,ENFS_v2 minus ENFS_v1,,,,14.8,9.20326029187483,3.372643462456269,26.227356537543734,26.19708994708995
+congestion_episodes,descriptive,Control,7.6,0.8944271909999159,,,,,
+congestion_episodes,descriptive,ENFS_v1,11.8,5.357238094391549,,,,,
+congestion_episodes,descriptive,ENFS_v2,2.4,0.5477225575051661,,,,,
+congestion_episodes,ENFS_v1 minus Control,,,,4.2,5.674504383644443,-2.8458275338586727,11.245827533858673,58.650793650793645
+congestion_episodes,ENFS_v2 minus Control,,,,-5.2,1.3038404810405297,-6.818931723368376,-3.5810682766316244,-67.6984126984127
+congestion_episodes,ENFS_v2 minus ENFS_v1,,,,-9.4,5.366563145999495,-16.063468,-2.7365320000000004,-74.17543859649123
+max_queue_packets,descriptive,Control,20,0.0,,,,,
+max_queue_packets,descriptive,ENFS_v1,20,0.0,,,,,
+max_queue_packets,descriptive,ENFS_v2,20,0.0,,,,,
+max_queue_packets,ENFS_v1 minus Control,,,,0,0.0,0.0,0.0,0.0
+max_queue_packets,ENFS_v2 minus Control,,,,0,0.0,0.0,0.0,0.0
+max_queue_packets,ENFS_v2 minus ENFS_v1,,,,0,0.0,0.0,0.0,0.0

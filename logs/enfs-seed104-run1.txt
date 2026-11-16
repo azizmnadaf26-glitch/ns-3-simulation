@@ -1,0 +1,316 @@
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+
+ENFS Explicit Feedback Prototype v3 - Sequenced Feedback
+Senders: 5
+Startup offset: 50 ms per sender index
+TCP: NewReno; data port: 5000
+ENFS feedback: UDP port 9000
+Bottleneck: 8 Mbps; queue limit: 20 packets
+Congestion threshold: 15 packets; clear threshold: 10 packets
+Simulation duration: 12 seconds
+
+[Sender 1] TCP connected at 1.02213 s
+[Sender 2] TCP connected at 1.07378 s
+[Sender 3] TCP connected at 1.12268 s
+
+[ENFS] Congestion detected at 1.13453 s; queue = 15 packets; event #1
+[ENFS] Sent CONGESTION feedback to 10.1.1.1 at 1.13453 s
+[ENFS] Sent CONGESTION feedback to 10.1.2.1 at 1.13453 s
+[ENFS] Sent CONGESTION feedback to 10.1.3.1 at 1.13453 s
+[ENFS] Sent CONGESTION feedback to 10.1.4.1 at 1.13453 s
+[ENFS] Sent CONGESTION feedback to 10.1.5.1 at 1.13453 s
+[ENFS] Sender 1 accepted CONGESTION sequence 1 at 1.13553 s; offered rate now 2.25 Mbps
+[ENFS] Sender 2 accepted CONGESTION sequence 1 at 1.13553 s; offered rate now 2.25 Mbps
+[ENFS] Sender 3 accepted CONGESTION sequence 1 at 1.13553 s; offered rate now 2.25 Mbps
+[ENFS] Sender 4 accepted CONGESTION sequence 1 at 1.13553 s; offered rate now 2.25 Mbps
+[ENFS] Sender 5 accepted CONGESTION sequence 1 at 1.13553 s; offered rate now 2.25 Mbps
+
+[ENFS] Congestion cleared at 1.14487 s; queue = 10 packets
+
+[ENFS] Congestion detected at 1.15464 s; queue = 15 packets; event #2
+
+[ENFS] Congestion cleared at 1.15721 s; queue = 10 packets
+[Sender 4] TCP connected at 1.17828 s
+
+[ENFS] Congestion detected at 1.18468 s; queue = 15 packets; event #3
+
+[ENFS] Congestion cleared at 1.18898 s; queue = 10 packets
+
+[ENFS] Congestion detected at 1.18998 s; queue = 15 packets; event #4
+[ENFS] Sent CONGESTION feedback to 10.1.1.1 at 1.23453 s
+[ENFS] Sent CONGESTION feedback to 10.1.2.1 at 1.23453 s
+[ENFS] Sent CONGESTION feedback to 10.1.3.1 at 1.23453 s
+[ENFS] Sent CONGESTION feedback to 10.1.4.1 at 1.23453 s
+[ENFS] Sent CONGESTION feedback to 10.1.5.1 at 1.23453 s
+[Sender 5] TCP connected at 1.23619 s
+
+[ENFS] Congestion cleared at 1.68095 s; queue = 10 packets
+[ENFS] Sent CLEAR feedback to 10.1.1.1 at 1.68095 s
+[ENFS] Sent CLEAR feedback to 10.1.2.1 at 1.68095 s
+[ENFS] Sent CLEAR feedback to 10.1.3.1 at 1.68095 s
+[ENFS] Sent CLEAR feedback to 10.1.4.1 at 1.68095 s
+[ENFS] Sent CLEAR feedback to 10.1.5.1 at 1.68095 s
+[ENFS] Sender 1 accepted CLEAR sequence 3 at 1.68195 s; offered rate now 2.5 Mbps
+[ENFS] Sender 2 accepted CLEAR sequence 3 at 1.68195 s; offered rate now 2.5 Mbps
+[ENFS] Sender 3 accepted CLEAR sequence 3 at 1.68195 s; offered rate now 2.5 Mbps
+[ENFS] Sender 4 accepted CLEAR sequence 3 at 1.68195 s; offered rate now 2.5 Mbps
+[ENFS] Sender 5 accepted CLEAR sequence 3 at 1.68195 s; offered rate now 2.5 Mbps
+
+[ENFS] Congestion detected at 1.86504 s; queue = 15 packets; event #5
+[ENFS] Sent CONGESTION feedback to 10.1.1.1 at 1.86504 s
+[ENFS] Sent CONGESTION feedback to 10.1.2.1 at 1.86504 s
+[ENFS] Sent CONGESTION feedback to 10.1.3.1 at 1.86504 s
+[ENFS] Sent CONGESTION feedback to 10.1.4.1 at 1.86504 s
+[ENFS] Sent CONGESTION feedback to 10.1.5.1 at 1.86504 s
+[ENFS] Sender 1 accepted CONGESTION sequence 4 at 1.86604 s; offered rate now 1.875 Mbps
+[ENFS] Sender 2 accepted CONGESTION sequence 4 at 1.86604 s; offered rate now 1.875 Mbps
+[ENFS] Sender 3 accepted CONGESTION sequence 4 at 1.86604 s; offered rate now 1.875 Mbps
+[ENFS] Sender 4 accepted CONGESTION sequence 4 at 1.86604 s; offered rate now 1.875 Mbps
+[ENFS] Sender 5 accepted CONGESTION sequence 4 at 1.86604 s; offered rate now 1.875 Mbps
+
+[ENFS] Congestion cleared at 2.4376 s; queue = 10 packets
+[ENFS] Sent CLEAR feedback to 10.1.1.1 at 2.4376 s
+[ENFS] Sent CLEAR feedback to 10.1.2.1 at 2.4376 s
+[ENFS] Sent CLEAR feedback to 10.1.3.1 at 2.4376 s
+[ENFS] Sent CLEAR feedback to 10.1.4.1 at 2.4376 s
+[ENFS] Sent CLEAR feedback to 10.1.5.1 at 2.4376 s
+[ENFS] Sender 1 accepted CLEAR sequence 5 at 2.43861 s; offered rate now 2.125 Mbps
+[ENFS] Sender 2 accepted CLEAR sequence 5 at 2.43861 s; offered rate now 2.125 Mbps
+[ENFS] Sender 3 accepted CLEAR sequence 5 at 2.43861 s; offered rate now 2.125 Mbps
+[ENFS] Sender 4 accepted CLEAR sequence 5 at 2.43861 s; offered rate now 2.125 Mbps
+[ENFS] Sender 5 accepted CLEAR sequence 5 at 2.43861 s; offered rate now 2.125 Mbps
+
+[ENFS] Congestion detected at 2.58134 s; queue = 15 packets; event #6
+[ENFS] Sent CONGESTION feedback to 10.1.1.1 at 2.58134 s
+[ENFS] Sent CONGESTION feedback to 10.1.2.1 at 2.58134 s
+[ENFS] Sent CONGESTION feedback to 10.1.3.1 at 2.58134 s
+[ENFS] Sent CONGESTION feedback to 10.1.4.1 at 2.58134 s
+[ENFS] Sent CONGESTION feedback to 10.1.5.1 at 2.58134 s
+[ENFS] Sender 1 accepted CONGESTION sequence 6 at 2.58235 s; offered rate now 1.59375 Mbps
+[ENFS] Sender 2 accepted CONGESTION sequence 6 at 2.58235 s; offered rate now 1.59375 Mbps
+[ENFS] Sender 3 accepted CONGESTION sequence 6 at 2.58235 s; offered rate now 1.59375 Mbps
+[ENFS] Sender 4 accepted CONGESTION sequence 6 at 2.58235 s; offered rate now 1.59375 Mbps
+[ENFS] Sender 5 accepted CONGESTION sequence 6 at 2.58235 s; offered rate now 1.59375 Mbps
+
+[ENFS] Congestion cleared at 3.3934 s; queue = 10 packets
+[ENFS] Sent CLEAR feedback to 10.1.1.1 at 3.3934 s
+[ENFS] Sent CLEAR feedback to 10.1.2.1 at 3.3934 s
+[ENFS] Sent CLEAR feedback to 10.1.3.1 at 3.3934 s
+[ENFS] Sent CLEAR feedback to 10.1.4.1 at 3.3934 s
+[ENFS] Sent CLEAR feedback to 10.1.5.1 at 3.3934 s
+[ENFS] Sender 1 accepted CLEAR sequence 7 at 3.39441 s; offered rate now 1.84375 Mbps
+[ENFS] Sender 2 accepted CLEAR sequence 7 at 3.39441 s; offered rate now 1.84375 Mbps
+[ENFS] Sender 3 accepted CLEAR sequence 7 at 3.39441 s; offered rate now 1.84375 Mbps
+[ENFS] Sender 4 accepted CLEAR sequence 7 at 3.39441 s; offered rate now 1.84375 Mbps
+[ENFS] Sender 5 accepted CLEAR sequence 7 at 3.39441 s; offered rate now 1.84375 Mbps
+
+[ENFS] Congestion detected at 3.50174 s; queue = 15 packets; event #7
+[ENFS] Sent CONGESTION feedback to 10.1.1.1 at 3.50174 s
+[ENFS] Sent CONGESTION feedback to 10.1.2.1 at 3.50174 s
+[ENFS] Sent CONGESTION feedback to 10.1.3.1 at 3.50174 s
+[ENFS] Sent CONGESTION feedback to 10.1.4.1 at 3.50174 s
+[ENFS] Sent CONGESTION feedback to 10.1.5.1 at 3.50174 s
+[ENFS] Sender 1 accepted CONGESTION sequence 8 at 3.50275 s; offered rate now 1.38281 Mbps
+[ENFS] Sender 2 accepted CONGESTION sequence 8 at 3.50275 s; offered rate now 1.38281 Mbps
+[ENFS] Sender 3 accepted CONGESTION sequence 8 at 3.50275 s; offered rate now 1.38281 Mbps
+[ENFS] Sender 4 accepted CONGESTION sequence 8 at 3.50275 s; offered rate now 1.38281 Mbps
+[ENFS] Sender 5 accepted CONGESTION sequence 8 at 3.50275 s; offered rate now 1.38281 Mbps
+
+[ENFS] Congestion cleared at 4.31026 s; queue = 10 packets
+[ENFS] Sent CLEAR feedback to 10.1.1.1 at 4.31026 s
+[ENFS] Sent CLEAR feedback to 10.1.2.1 at 4.31026 s
+[ENFS] Sent CLEAR feedback to 10.1.3.1 at 4.31026 s
+[ENFS] Sent CLEAR feedback to 10.1.4.1 at 4.31026 s
+[ENFS] Sent CLEAR feedback to 10.1.5.1 at 4.31026 s
+[ENFS] Sender 1 accepted CLEAR sequence 9 at 4.31127 s; offered rate now 1.63281 Mbps
+[ENFS] Sender 2 accepted CLEAR sequence 9 at 4.31127 s; offered rate now 1.63281 Mbps
+[ENFS] Sender 3 accepted CLEAR sequence 9 at 4.31127 s; offered rate now 1.63281 Mbps
+[ENFS] Sender 4 accepted CLEAR sequence 9 at 4.31127 s; offered rate now 1.63281 Mbps
+[ENFS] Sender 5 accepted CLEAR sequence 9 at 4.31127 s; offered rate now 1.63281 Mbps
+
+[ENFS] Congestion detected at 4.454 s; queue = 15 packets; event #8
+[ENFS] Sent CONGESTION feedback to 10.1.1.1 at 4.454 s
+[ENFS] Sent CONGESTION feedback to 10.1.2.1 at 4.454 s
+[ENFS] Sent CONGESTION feedback to 10.1.3.1 at 4.454 s
+[ENFS] Sent CONGESTION feedback to 10.1.4.1 at 4.454 s
+[ENFS] Sent CONGESTION feedback to 10.1.5.1 at 4.454 s
+[ENFS] Sender 1 accepted CONGESTION sequence 10 at 4.45501 s; offered rate now 1.22461 Mbps
+[ENFS] Sender 2 accepted CONGESTION sequence 10 at 4.45501 s; offered rate now 1.22461 Mbps
+[ENFS] Sender 3 accepted CONGESTION sequence 10 at 4.45501 s; offered rate now 1.22461 Mbps
+[ENFS] Sender 4 accepted CONGESTION sequence 10 at 4.45501 s; offered rate now 1.22461 Mbps
+[ENFS] Sender 5 accepted CONGESTION sequence 10 at 4.45501 s; offered rate now 1.22461 Mbps
+
+[ENFS] Congestion cleared at 5.24482 s; queue = 10 packets
+[ENFS] Sent CLEAR feedback to 10.1.1.1 at 5.24482 s
+[ENFS] Sent CLEAR feedback to 10.1.2.1 at 5.24482 s
+[ENFS] Sent CLEAR feedback to 10.1.3.1 at 5.24482 s
+[ENFS] Sent CLEAR feedback to 10.1.4.1 at 5.24482 s
+[ENFS] Sent CLEAR feedback to 10.1.5.1 at 5.24482 s
+[ENFS] Sender 1 accepted CLEAR sequence 11 at 5.24583 s; offered rate now 1.47461 Mbps
+[ENFS] Sender 2 accepted CLEAR sequence 11 at 5.24583 s; offered rate now 1.47461 Mbps
+[ENFS] Sender 3 accepted CLEAR sequence 11 at 5.24583 s; offered rate now 1.47461 Mbps
+[ENFS] Sender 4 accepted CLEAR sequence 11 at 5.24583 s; offered rate now 1.47461 Mbps
+[ENFS] Sender 5 accepted CLEAR sequence 11 at 5.24583 s; offered rate now 1.47461 Mbps
+
+[ENFS] Congestion detected at 5.38675 s; queue = 15 packets; event #9
+[ENFS] Sent CONGESTION feedback to 10.1.1.1 at 5.38675 s
+[ENFS] Sent CONGESTION feedback to 10.1.2.1 at 5.38675 s
+[ENFS] Sent CONGESTION feedback to 10.1.3.1 at 5.38675 s
+[ENFS] Sent CONGESTION feedback to 10.1.4.1 at 5.38675 s
+[ENFS] Sent CONGESTION feedback to 10.1.5.1 at 5.38675 s
+[ENFS] Sender 1 accepted CONGESTION sequence 12 at 5.38775 s; offered rate now 1.10596 Mbps
+[ENFS] Sender 2 accepted CONGESTION sequence 12 at 5.38775 s; offered rate now 1.10596 Mbps
+[ENFS] Sender 3 accepted CONGESTION sequence 12 at 5.38775 s; offered rate now 1.10596 Mbps
+[ENFS] Sender 4 accepted CONGESTION sequence 12 at 5.38775 s; offered rate now 1.10596 Mbps
+[ENFS] Sender 5 accepted CONGESTION sequence 12 at 5.38775 s; offered rate now 1.10596 Mbps
+
+[ENFS] Congestion cleared at 6.131 s; queue = 10 packets
+[ENFS] Sent CLEAR feedback to 10.1.1.1 at 6.131 s
+[ENFS] Sent CLEAR feedback to 10.1.2.1 at 6.131 s
+[ENFS] Sent CLEAR feedback to 10.1.3.1 at 6.131 s
+[ENFS] Sent CLEAR feedback to 10.1.4.1 at 6.131 s
+[ENFS] Sent CLEAR feedback to 10.1.5.1 at 6.131 s
+[ENFS] Sender 1 accepted CLEAR sequence 13 at 6.13201 s; offered rate now 1.35596 Mbps
+[ENFS] Sender 2 accepted CLEAR sequence 13 at 6.13201 s; offered rate now 1.35596 Mbps
+[ENFS] Sender 3 accepted CLEAR sequence 13 at 6.13201 s; offered rate now 1.35596 Mbps
+[ENFS] Sender 4 accepted CLEAR sequence 13 at 6.13201 s; offered rate now 1.35596 Mbps
+[ENFS] Sender 5 accepted CLEAR sequence 13 at 6.13201 s; offered rate now 1.35596 Mbps
+
+[ENFS] Congestion detected at 6.27116 s; queue = 15 packets; event #10
+[ENFS] Sent CONGESTION feedback to 10.1.1.1 at 6.27116 s
+[ENFS] Sent CONGESTION feedback to 10.1.2.1 at 6.27116 s
+[ENFS] Sent CONGESTION feedback to 10.1.3.1 at 6.27116 s
+[ENFS] Sent CONGESTION feedback to 10.1.4.1 at 6.27116 s
+[ENFS] Sent CONGESTION feedback to 10.1.5.1 at 6.27116 s
+[ENFS] Sender 1 accepted CONGESTION sequence 14 at 6.27216 s; offered rate now 1.01697 Mbps
+[ENFS] Sender 2 accepted CONGESTION sequence 14 at 6.27216 s; offered rate now 1.01697 Mbps
+[ENFS] Sender 3 accepted CONGESTION sequence 14 at 6.27216 s; offered rate now 1.01697 Mbps
+[ENFS] Sender 4 accepted CONGESTION sequence 14 at 6.27216 s; offered rate now 1.01697 Mbps
+[ENFS] Sender 5 accepted CONGESTION sequence 14 at 6.27216 s; offered rate now 1.01697 Mbps
+
+[ENFS] Congestion cleared at 7.00814 s; queue = 10 packets
+[ENFS] Sent CLEAR feedback to 10.1.1.1 at 7.00814 s
+[ENFS] Sent CLEAR feedback to 10.1.2.1 at 7.00814 s
+[ENFS] Sent CLEAR feedback to 10.1.3.1 at 7.00814 s
+[ENFS] Sent CLEAR feedback to 10.1.4.1 at 7.00814 s
+[ENFS] Sent CLEAR feedback to 10.1.5.1 at 7.00814 s
+[ENFS] Sender 1 accepted CLEAR sequence 15 at 7.00914 s; offered rate now 1.26697 Mbps
+[ENFS] Sender 2 accepted CLEAR sequence 15 at 7.00914 s; offered rate now 1.26697 Mbps
+[ENFS] Sender 3 accepted CLEAR sequence 15 at 7.00914 s; offered rate now 1.26697 Mbps
+[ENFS] Sender 4 accepted CLEAR sequence 15 at 7.00914 s; offered rate now 1.26697 Mbps
+[ENFS] Sender 5 accepted CLEAR sequence 15 at 7.00914 s; offered rate now 1.26697 Mbps
+
+[ENFS] Congestion detected at 7.04106 s; queue = 15 packets; event #11
+[ENFS] Sent CONGESTION feedback to 10.1.1.1 at 7.10814 s
+[ENFS] Sent CONGESTION feedback to 10.1.2.1 at 7.10814 s
+[ENFS] Sent CONGESTION feedback to 10.1.3.1 at 7.10814 s
+[ENFS] Sent CONGESTION feedback to 10.1.4.1 at 7.10814 s
+[ENFS] Sent CONGESTION feedback to 10.1.5.1 at 7.10814 s
+[ENFS] Sender 1 accepted CONGESTION sequence 16 at 7.10914 s; offered rate now 0.950225 Mbps
+[ENFS] Sender 2 accepted CONGESTION sequence 16 at 7.10914 s; offered rate now 0.950225 Mbps
+[ENFS] Sender 3 accepted CONGESTION sequence 16 at 7.10914 s; offered rate now 0.950225 Mbps
+[ENFS] Sender 4 accepted CONGESTION sequence 16 at 7.10914 s; offered rate now 0.950225 Mbps
+[ENFS] Sender 5 accepted CONGESTION sequence 16 at 7.10914 s; offered rate now 0.950225 Mbps
+
+[ENFS] Congestion cleared at 7.14396 s; queue = 10 packets
+[ENFS] Sent CLEAR feedback to 10.1.1.1 at 7.20814 s
+[ENFS] Sent CLEAR feedback to 10.1.2.1 at 7.20814 s
+[ENFS] Sent CLEAR feedback to 10.1.3.1 at 7.20814 s
+[ENFS] Sent CLEAR feedback to 10.1.4.1 at 7.20814 s
+[ENFS] Sent CLEAR feedback to 10.1.5.1 at 7.20814 s
+[ENFS] Sender 1 accepted CLEAR sequence 17 at 7.20914 s; offered rate now 1.20023 Mbps
+[ENFS] Sender 2 accepted CLEAR sequence 17 at 7.20914 s; offered rate now 1.20023 Mbps
+[ENFS] Sender 3 accepted CLEAR sequence 17 at 7.20914 s; offered rate now 1.20023 Mbps
+[ENFS] Sender 4 accepted CLEAR sequence 17 at 7.20914 s; offered rate now 1.20023 Mbps
+[ENFS] Sender 5 accepted CLEAR sequence 17 at 7.20914 s; offered rate now 1.20023 Mbps
+
+[ENFS] Congestion detected at 7.26794 s; queue = 15 packets; event #12
+
+[ENFS] Congestion cleared at 7.27632 s; queue = 10 packets
+
+[ENFS] Congestion detected at 7.27718 s; queue = 15 packets; event #13
+
+[ENFS] Congestion cleared at 7.2856 s; queue = 10 packets
+
+[ENFS] Congestion detected at 7.28745 s; queue = 15 packets; event #14
+[ENFS] Sent CONGESTION feedback to 10.1.1.1 at 7.30814 s
+[ENFS] Sent CONGESTION feedback to 10.1.2.1 at 7.30814 s
+[ENFS] Sent CONGESTION feedback to 10.1.3.1 at 7.30814 s
+[ENFS] Sent CONGESTION feedback to 10.1.4.1 at 7.30814 s
+[ENFS] Sent CONGESTION feedback to 10.1.5.1 at 7.30814 s
+[ENFS] Sender 1 accepted CONGESTION sequence 18 at 7.30914 s; offered rate now 0.900168 Mbps
+[ENFS] Sender 2 accepted CONGESTION sequence 18 at 7.30914 s; offered rate now 0.900168 Mbps
+[ENFS] Sender 3 accepted CONGESTION sequence 18 at 7.30914 s; offered rate now 0.900168 Mbps
+[ENFS] Sender 4 accepted CONGESTION sequence 18 at 7.30914 s; offered rate now 0.900168 Mbps
+[ENFS] Sender 5 accepted CONGESTION sequence 18 at 7.30914 s; offered rate now 0.900168 Mbps
+
+[ENFS] Congestion cleared at 7.34091 s; queue = 10 packets
+
+[ENFS] Congestion detected at 7.34373 s; queue = 15 packets; event #15
+
+[ENFS] Congestion cleared at 7.35019 s; queue = 10 packets
+
+[ENFS] Congestion detected at 7.3575 s; queue = 15 packets; event #16
+
+[ENFS] Congestion cleared at 7.36167 s; queue = 10 packets
+
+[ENFS] Congestion detected at 7.37026 s; queue = 15 packets; event #17
+
+[ENFS] Congestion cleared at 7.37492 s; queue = 10 packets
+
+[ENFS] Congestion detected at 7.38158 s; queue = 15 packets; event #18
+
+[ENFS] Congestion cleared at 7.38826 s; queue = 10 packets
+
+[ENFS] Congestion detected at 7.39662 s; queue = 15 packets; event #19
+
+[ENFS] Congestion cleared at 7.40092 s; queue = 10 packets
+[ENFS] Sent CLEAR feedback to 10.1.1.1 at 7.40814 s
+[ENFS] Sent CLEAR feedback to 10.1.2.1 at 7.40814 s
+[ENFS] Sent CLEAR feedback to 10.1.3.1 at 7.40814 s
+[ENFS] Sent CLEAR feedback to 10.1.4.1 at 7.40814 s
+[ENFS] Sent CLEAR feedback to 10.1.5.1 at 7.40814 s
+[ENFS] Sender 1 accepted CLEAR sequence 19 at 7.40914 s; offered rate now 1.15017 Mbps
+[ENFS] Sender 2 accepted CLEAR sequence 19 at 7.40914 s; offered rate now 1.15017 Mbps
+[ENFS] Sender 3 accepted CLEAR sequence 19 at 7.40914 s; offered rate now 1.15017 Mbps
+[ENFS] Sender 4 accepted CLEAR sequence 19 at 7.40914 s; offered rate now 1.15017 Mbps
+[ENFS] Sender 5 accepted CLEAR sequence 19 at 7.40914 s; offered rate now 1.15017 Mbps
+Flow 1: 10.1.1.1 -> 10.2.0.2
+  TX packets: 3621, RX packets: 3609, lost: 12
+  Throughput: 1.478 Mbps
+  Mean packet delay: 22.866 ms
+
+Flow 3: 10.1.2.1 -> 10.2.0.2
+  TX packets: 3564, RX packets: 3554, lost: 10
+  Throughput: 1.453 Mbps
+  Mean packet delay: 22.104 ms
+
+Flow 5: 10.1.3.1 -> 10.2.0.2
+  TX packets: 3540, RX packets: 3528, lost: 12
+  Throughput: 1.459 Mbps
+  Mean packet delay: 23.114 ms
+
+Flow 12: 10.1.4.1 -> 10.2.0.2
+  TX packets: 3517, RX packets: 3507, lost: 10
+  Throughput: 1.460 Mbps
+  Mean packet delay: 23.272 ms
+
+Flow 14: 10.1.5.1 -> 10.2.0.2
+  TX packets: 3498, RX packets: 3488, lost: 10
+  Throughput: 1.461 Mbps
+  Mean packet delay: 23.099 ms
+
+\n===== PER-SENDER FEEDBACK DIAGNOSTICS =====\nSender 1: received=19, fresh=19, stale=0, state_changes=18\nSender 2: received=19, fresh=19, stale=0, state_changes=18\nSender 3: received=19, fresh=19, stale=0, state_changes=18\nSender 4: received=19, fresh=19, stale=0, state_changes=18\nSender 5: received=19, fresh=19, stale=0, state_changes=18\n===== ENFS AGGREGATE RESULTS =====\nTransmitted packets: 17740
+Received packets: 17686
+Lost packets (FlowMonitor): 54
+Loss ratio: 0.003
+Aggregate throughput estimate: 7.242 Mbps
+Mean packet delay: 22.889 ms
+Maximum queue occupancy: 20 packets
+Queue occupancy change events: 35372
+Congestion episodes: 19
+Feedback messages sent: 95
+Feedback messages received: 95
